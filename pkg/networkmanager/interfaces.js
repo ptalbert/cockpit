@@ -1961,7 +1961,9 @@ var ipv6_method_choices =
         { choice: 'dhcp', title: _("Automatic (DHCP only)") },
         { choice: 'link-local', title: _("Link local") },
         { choice: 'manual', title: _("Manual") },
-        { choice: 'ignore', title: _("Ignore") }
+        { choice: 'ignore', title: _("Ignore") },
+        { choice: 'shared', title: _("Shared") },
+        { choice: 'disabled', title: _("Disabled") }
     ];
 
 var bond_mode_choices =
